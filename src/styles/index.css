@@ -1,0 +1,63 @@
+@import "normalize.css";
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+@font-face {
+  font-family: "Larisa script";
+  src: url("./fonts/Larisa_script.woff2") format("woff2"),
+    url("./fonts/Larisa_script.woff") format("woff"),
+    url("./fonts/Larisa_script.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Mysl";
+  src: url("./fonts/Mysl.woff2") format("woff2"),
+    url("./fonts/Mysl.woff") format("woff"),
+    url("./fonts/Mysl.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "inspiration";
+  src: url("./fonts/inspiration.woff2") format("woff2"),
+    url("./fonts/inspiration.woff") format("woff"),
+    url("./fonts/inspiration.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Diplomatia Two";
+  src: url("./fonts/Diplomatia-Two.woff2") format("woff2"),
+    url("./fonts/Diplomatia-Two.woff") format("woff"),
+    url("./fonts/Diplomatia-Two.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Doloman Pavljenko";
+  src: url("./fonts/DolomanPavljenko.woff2") format("woff2"),
+    url("./fonts/DolomanPavljenko.woff") format("woff"),
+    url("./fonts/DolomanPavljenko.ttf") format("truetype");
+  font-weight: normal;
+}
+
+body {
+  font-family: "Mysl", Arial, sans-serif;
+  font-size: 20px;
+  background-color: rgb(246, 251, 253);
+}
+header {
+  height: 600px;
+  /* background: url("/public/photo-output.png") center center no-repeat fixed; */
+  /* background-size: cover; */
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+a.text:active,
+a.text:hover,
+a.text {
+  text-decoration: none;
+}

@@ -1,0 +1,141 @@
+:root {
+  --line-height: 800px;
+  --point-diameter: 16px;
+  --icon-size: 100px;
+  --description-size: 150px;
+}
+
+.diagram {
+  display: flex;
+  margin: 150px 0;
+}
+.schedule {
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.schedule h2 {
+  font-size: 50px;
+}
+.verticalLine {
+  height: var(--line-height);
+  position: relative;
+  border: 1px solid black;
+}
+
+.weddingPoint {
+  height: var(--point-diameter);
+  width: var(--point-diameter);
+  position: absolute;
+  top: calc(var(--point-diameter) / 2 * (-1));
+  left: calc(var(--point-diameter) / 2 * (-1));
+  background-color: black;
+  border-radius: 50%;
+}
+
+.buffetPoint {
+  height: var(--point-diameter);
+  width: var(--point-diameter);
+  position: absolute;
+  top: calc((var(--line-height) / 3) - var(--point-diameter) / 2);
+  left: calc(var(--point-diameter) / 2 * (-1));
+  background-color: black;
+  border-radius: 50%;
+}
+
+.holidayPoint {
+  height: var(--point-diameter);
+  width: var(--point-diameter);
+  position: absolute;
+  top: calc((var(--line-height) / 3 * 2) - var(--point-diameter) / 2);
+  left: calc(var(--point-diameter) / 2 * (-1));
+  background-color: black;
+  border-radius: 50%;
+}
+
+.totalPoint {
+  height: var(--point-diameter);
+  width: var(--point-diameter);
+  position: absolute;
+  top: calc(var(--line-height) - var(--point-diameter) / 2);
+  left: calc(var(--point-diameter) / 2 * (-1));
+  background-color: black;
+  border-radius: 50%;
+}
+
+.icons {
+  width: 100px;
+  height: var(--line-height);
+  position: relative;
+}
+.weddingIcon {
+  width: var(--icon-size);
+  height: var(--icon-size);
+  position: absolute;
+  top: calc(var(--icon-size) / 2 * (-1));
+  left: calc(var(--icon-size) / 4 * (-1));
+}
+
+.buffetIcon {
+  width: var(--icon-size);
+  height: var(--icon-size);
+  position: absolute;
+  top: calc((var(--line-height) / 3) - var(--icon-size) / 2);
+  left: calc(var(--icon-size) / 4 * (-1));
+}
+
+.holidayIcon {
+  width: var(--icon-size);
+  height: var(--icon-size);
+  position: absolute;
+  top: calc((var(--line-height) / 3 * 2) - var(--icon-size) / 2);
+  left: calc(var(--icon-size) / 4 * (-1));
+}
+
+.totalIcon {
+  width: var(--icon-size);
+  height: var(--icon-size);
+  position: absolute;
+  top: calc(var(--line-height) - var(--icon-size) / 2);
+  left: calc(var(--icon-size) / 4 * (-1));
+}
+
+.description {
+  width: var(--description-size);
+  font-size: 15px;
+  height: var(--line-height);
+  position: relative;
+}
+
+.weddingDescription {
+  position: absolute;
+  top: calc(var(--point-diameter) / 2 * (-1) - 4px);
+  left: calc(var(--icon-size) / 4);
+}
+.buffetDescription {
+  position: absolute;
+  top: calc((var(--line-height) / 3) - var(--point-diameter) / 2 - 4px);
+  left: calc(var(--icon-size) / 4);
+}
+.holidayDescription {
+  position: absolute;
+  top: calc((var(--line-height) / 3 * 2) - var(--point-diameter) / 2 - 4px);
+  left: calc(var(--icon-size) / 4);
+}
+.totalDescription {
+  position: absolute;
+  top: calc(var(--line-height) - var(--point-diameter) / 2 - 4px);
+  left: calc(var(--icon-size) / 4);
+}
+
+.time {
+  font-size: 20px;
+}
+
+@media (max-width: 576px) {
+  .schedule h2 {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,7 @@
+.burgerMenu {
+  cursor: pointer;
+}
+
+.burgerMenu:hover {
+  fill: #595858;
+}
