@@ -8,6 +8,8 @@ import {
 } from "../../constants";
 import { Section } from "../common";
 
+import styles from "./guests.module.css";
+
 export const Guests = () => {
   const colItems: {
     first: string[];
@@ -18,10 +20,10 @@ export const Guests = () => {
   };
   GuestsArray.forEach((value, index) => {
     if (
-      index <
+      index <=
       (NUMBER_OF_GUESTS_REMAINDER === 1
-        ? NUMBER_OF_GUESTS_IN_COL + 1
-        : NUMBER_OF_GUESTS_IN_COL)
+        ? NUMBER_OF_GUESTS_IN_COL
+        : NUMBER_OF_GUESTS_IN_COL - 1)
     ) {
       colItems.first.push(value);
       return;
@@ -32,20 +34,26 @@ export const Guests = () => {
   return (
     <Container>
       <Section id={IdsNav.GUESTS}>
-        <h2>Гости / рассадка</h2>
+        <div className={styles.guest}>
+          <h2>Гости</h2>
 
-        <Row>
-          <Col xl={6} md={6} xs={12}>
-            {colItems.first.map((value) => (
-              <div>{value}</div>
-            ))}
-          </Col>
-          <Col xl={6} md={6} xs={12}>
-            {colItems.second.map((value) => (
-              <div>{value}</div>
-            ))}
-          </Col>
-        </Row>
+          <Row>
+            <Col xl={6} md={6} xs={12}>
+              <div className={styles.guestsItemsWrap}>
+                {colItems.first.map((value) => (
+                  <div className={styles.guestsItem}>{value}</div>
+                ))}
+              </div>
+            </Col>
+            <Col xl={6} md={6} xs={12}>
+              <div className={styles.guestsItemsWrap}>
+                {colItems.second.map((value) => (
+                  <div className={styles.guestsItem}>{value}</div>
+                ))}
+              </div>
+            </Col>
+          </Row>
+        </div>
       </Section>
     </Container>
   );

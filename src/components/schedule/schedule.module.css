@@ -134,7 +134,7 @@
   font-size: 20px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .schedule h2 {
     font-size: 30px;
   }

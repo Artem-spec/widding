@@ -2,3 +2,20 @@
   background-color: #9db8e0;
   border-radius: 20px;
 }
+
+.additional {
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.additional h2 {
+  font-size: 30px;
+}
+
+@media (max-width: 768px) {
+  .additional {
+    font-size: 15px;
+  }
+}

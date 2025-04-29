@@ -1,0 +1,29 @@
+.section {
+  min-height: max-content !important;
+}
+.feedback {
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.feedback h2 {
+  font-size: 30px;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact img {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+  .feedback {
+    font-size: 15px;
+  }
+}
