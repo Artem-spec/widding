@@ -13,7 +13,28 @@
 .additional h2 {
   font-size: 30px;
 }
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
+.tickets {
+  width: 200px;
+  margin: 20px 50px;
+  transform: rotate(20deg);
+}
+
+.bottle {
+  width: 200px;
+  transform: rotate(40deg);
+}
+
+.map{
+  width: 100%;
+  height: 500px;
+}
 @media (max-width: 768px) {
   .additional {
     font-size: 15px;

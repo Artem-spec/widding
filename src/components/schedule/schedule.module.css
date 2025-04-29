@@ -72,7 +72,7 @@
 }
 .weddingIcon {
   width: var(--icon-size);
-  height: var(--icon-size);
+  height: 70px;
   position: absolute;
   top: calc(var(--icon-size) / 2 * (-1));
   left: calc(var(--icon-size) / 4 * (-1));

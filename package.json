@@ -11,6 +11,7 @@
     "deploy:gh-pages": "gh-pages -d dist"
   },
   "dependencies": {
+    "@pbe/react-yandex-maps": "^1.2.5",
     "bootstrap": "^5.3.5",
     "classnames": "^2.5.1",
     "react": "^19.0.0",

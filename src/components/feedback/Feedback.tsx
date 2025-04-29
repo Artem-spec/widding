@@ -29,6 +29,12 @@ export const Feedback = () => {
               <img src="/widding/assets/img/tg.png" alt="tg" />
             </a>
           </div>
+          <div className={styles.gameover}>
+            <img
+              src="/widding/assets/img/gameover.png"
+              className={styles.gameoverImg}
+            />
+          </div>
         </div>
       </Section>
     </Container>

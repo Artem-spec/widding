@@ -13,12 +13,12 @@ export const Schedule = () => {
         <div className={styles.diagram}>
           <div className={styles.icons}>
             <img
-              src="/widding/assets/img/champagne.png"
+              src="/widding/assets/img/rings_hand.png"
               alt="Шампанское"
               className={styles.weddingIcon}
             />
             <img
-              src="/widding/assets/img/rings.png"
+              src="/widding/assets/img/champagne.png"
               alt="Кольца"
               className={styles.buffetIcon}
             />
