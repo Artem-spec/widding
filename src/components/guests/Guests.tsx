@@ -41,14 +41,18 @@ export const Guests = () => {
             <Col xl={6} md={6} xs={12}>
               <div className={styles.guestsItemsWrap}>
                 {colItems.first.map((value) => (
-                  <div className={styles.guestsItem}>{value}</div>
+                  <div key={value} className={styles.guestsItem}>
+                    {value}
+                  </div>
                 ))}
               </div>
             </Col>
             <Col xl={6} md={6} xs={12}>
               <div className={styles.guestsItemsWrap}>
                 {colItems.second.map((value) => (
-                  <div className={styles.guestsItem}>{value}</div>
+                  <div key={value} className={styles.guestsItem}>
+                    {value}
+                  </div>
                 ))}
               </div>
             </Col>

@@ -2,10 +2,4 @@
   min-height: 500px;
   margin-top: 20px;
   margin-bottom: 20px;
-  /* font-family: "Mysl", Arial, sans-serif; */
-}
-.topFrame {
-  background: url("/public/border.png") center center no-repeat fixed;
-}
-.bottomFrame {
 }
