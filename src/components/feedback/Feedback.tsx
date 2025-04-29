@@ -20,13 +20,13 @@ export const Feedback = () => {
           <div className={styles.contact}>
             Артем
             <a href={"https://t.me/artgrinblat"}>
-              <img src="public/assets/img/tg.png" alt="tg" />
+              <img src="/public/assets/img/tg.png" alt="tg" />
             </a>
           </div>
           <div className={styles.contact}>
             Виктория
             <a href={"https://t.me/vika6174"}>
-              <img src="public/assets/img/tg.png" alt="tg" />
+              <img src="/public/assets/img/tg.png" alt="tg" />
             </a>
           </div>
         </div>

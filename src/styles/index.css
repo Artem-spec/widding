@@ -52,7 +52,7 @@ body {
 }
 header {
   height: 600px;
-  /* background: url("/public/assets/img/photo-output.png") center center no-repeat fixed; */
+  /* background: url("//public/assets/img/photo-output.png") center center no-repeat fixed; */
   /* background-size: cover; */
 }
 
