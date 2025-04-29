@@ -13,22 +13,22 @@ export const Schedule = () => {
         <div className={styles.diagram}>
           <div className={styles.icons}>
             <img
-              src="/public/assets/img/champagne.png"
+              src="/widding/assets/img/champagne.png"
               alt="Шампанское"
               className={styles.weddingIcon}
             />
             <img
-              src="/public/assets/img/rings.png"
+              src="/widding/assets/img/rings.png"
               alt="Кольца"
               className={styles.buffetIcon}
             />
             <img
-              src="/public/assets/img/cutlery.png"
+              src="/widding/assets/img/cutlery.png"
               alt="Вилка, ложка"
               className={styles.holidayIcon}
             />
             <img
-              src="/public/assets/img/cake.png"
+              src="/widding/assets/img/cake.png"
               alt="Торт"
               className={styles.totalIcon}
             />

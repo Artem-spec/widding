@@ -49,7 +49,7 @@ export const DressCode = () => {
             Для мужчин - черные костюмы(брюки) и рубашка белая / в цветовой
             гамме
           </p>
-          <img src="/public/assets/img/costume.png" alt="costume" />
+          <img src="/widding/assets/img/costume.png" alt="costume" />
         </div>
       </Section>
     </Container>
