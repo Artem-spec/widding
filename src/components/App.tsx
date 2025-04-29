@@ -2,9 +2,9 @@ import { MainInfo } from "./mainInfo";
 import { About } from "./about";
 import { Schedule } from "./schedule";
 import { DressCode } from "./dressCode";
-import { Guests } from "./guests";
+// import { Guests } from "./guests";
 import { Additional } from "./additional";
-import { Feedback } from "./feedback";
+// import { Feedback } from "./feedback";
 
 export const App = () => {
   return (
@@ -16,9 +16,9 @@ export const App = () => {
         <About />
         <Schedule />
         <DressCode />
-        <Guests />
+        {/* <Guests /> */}
         <Additional />
-        <Feedback />
+        {/* <Feedback /> */}
       </main>
     </>
   );
