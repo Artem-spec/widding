@@ -45,10 +45,7 @@ export const DressCode = () => {
               style={{ backgroundColor: "#ddbebb" }}
             ></div>
           </div>
-          <p>
-            Для мужчин - черные костюмы(брюки) и рубашка белая / в цветовой
-            гамме
-          </p>
+          <p>Для мужчин - темный низ, светлый верх (или в цветовой гамме)</p>
           <img src="/widding/assets/img/costume.png" alt="costume" />
         </div>
       </Section>

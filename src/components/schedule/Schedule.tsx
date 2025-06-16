@@ -10,6 +10,9 @@ export const Schedule = () => {
     <Container>
       <Section id={IdsNav.SCHEDULE} className={styles.schedule}>
         <h2>Расписание дня</h2>
+        {/* <div>
+          <img src="/widding/assets/img/waves.png" alt="Волны" />
+        </div> */}
         <div className={styles.diagram}>
           <div className={styles.icons}>
             <img
@@ -46,7 +49,7 @@ export const Schedule = () => {
               <p>Дворец, бракосочетания ул. Молодогвардейская, 238</p>
             </div>
             <div className={styles.buffetDescription}>
-              <p className={styles.time}>16:00</p>
+              <p className={styles.time}>16:30</p>
               <p>Сбор гостей, фуршет</p>
               <p>Золотой Берег, База отдыха Бережок, 1</p>
             </div>

@@ -15,6 +15,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url("/widding/assets/img/waves.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .schedule h2 {
   font-size: 50px;
@@ -137,5 +141,8 @@
 @media (max-width: 768px) {
   .schedule h2 {
     font-size: 30px;
+  }
+  .schedule {
+    background-size: cover;
   }
 }

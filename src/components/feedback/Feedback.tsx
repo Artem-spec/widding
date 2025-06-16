@@ -17,23 +17,22 @@ export const Feedback = () => {
             разделили с нами это радостное событие! Если у вас не получается,
             случился форс-мажор - напишите нам, пожалуйста.
           </p>
+          <p>Не забудьте добавиться в чат гостей</p>
           <div className={styles.contact}>
-            Артем
             <a href={"https://t.me/artgrinblat"}>
-              <img src="/widding/assets/img/tg.png" alt="tg" />
+              Артем <img src="/widding/assets/img/tg.png" alt="tg" />
             </a>
           </div>
           <div className={styles.contact}>
-            Виктория
             <a href={"https://t.me/vika6174"}>
-              <img src="/widding/assets/img/tg.png" alt="tg" />
+              Виктория <img src="/widding/assets/img/tg.png" alt="tg" />
             </a>
           </div>
-          <div className={styles.gameover}>
-            <img
-              src="/widding/assets/img/gameover.png"
-              className={styles.gameoverImg}
-            />
+          <div className={styles.contact}>
+            <a href={"https://t.me/+qRmAD0GGg_0xOTYy"}>
+              Группа для гостей{" "}
+              <img src="/widding/assets/img/tg.png" alt="tg" />
+            </a>
           </div>
         </div>
       </Section>
