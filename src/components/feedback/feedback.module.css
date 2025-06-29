@@ -1,6 +1,9 @@
 .section {
   min-height: max-content !important;
+  background-color: #9db8e0;
+  border-radius: 20px;
 }
+
 .feedback {
   padding: 20px 40px;
   display: flex;
@@ -8,19 +11,23 @@
   justify-content: center;
   align-items: center;
 }
+
 .feedback h2 {
   font-size: 30px;
 }
+
 .contact {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .contact img {
   width: 30px;
   height: 30px;
   margin-left: 20px;
 }
+
 .gameover {
   display: flex;
 }
@@ -29,6 +36,7 @@
   max-width: 300px;
   max-height: 300px;
 }
+
 @media (max-width: 768px) {
   .feedback {
     font-size: 15px;

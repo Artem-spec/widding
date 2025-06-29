@@ -1,6 +1,5 @@
 .section {
-  background-color: #9db8e0;
-  border-radius: 20px;
+  min-height: max-content !important;
 }
 
 .additional {

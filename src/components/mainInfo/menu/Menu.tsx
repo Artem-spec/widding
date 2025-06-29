@@ -49,12 +49,7 @@ export const Menu = () => {
               <a href={`#${IdsNav.DRESS_CODE}`} className={styles.menuLink}>
                 Дресс-код
               </a>
-            </li>
-            <li className={styles.menuItem}>
-              <a href={`#${IdsNav.GUESTS}`} className={styles.menuLink}>
-                Гости
-              </a>
-            </li>
+            </li>           
             <li className={styles.menuItem}>
               <a href={`#${IdsNav.ADDITIONAL}`} className={styles.menuLink}>
                 Дополнительно
