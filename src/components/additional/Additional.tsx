@@ -12,7 +12,7 @@ export const Additional = () => {
       <Section id={IdsNav.ADDITIONAL} className={styles.section}>
         <div className={styles.additional}>
           <h2>Дополнительная информация</h2>
-          <p>ffffffffff
+          <p>
             Для лучшей координации создан чат в телеграмме, где будет находиться
             необходимая информация. Но это еще не все! В чате создана тема "Сам
             Себе Фотограф", туда вы можете присылать свои фотографии. По
